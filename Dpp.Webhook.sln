@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dpp.Webhook.Domain", "Dpp.Webhook.Domain\Dpp.Webhook.Domain.csproj", "{3B472913-915E-427E-8EF0-3BF9B0C2C3E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dpp.Webhook.Application", "Dpp.Webhook.Application\Dpp.Webhook.Application.csproj", "{9C50CFD4-4389-4422-99C1-250FABB4F21B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dpp.Webhook.Infrastructure", "Dpp.Webhook.Infrastructure\Dpp.Webhook.Infrastructure.csproj", "{ED38A8B9-A3D3-4B29-9683-34FDE9EA1EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dpp.Webhook.Api", "Dpp.Webhook.Api\Dpp.Webhook.Api.csproj", "{8FA4E701-34AC-4E46-83B7-5E5612E5CA4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B472913-915E-427E-8EF0-3BF9B0C2C3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B472913-915E-427E-8EF0-3BF9B0C2C3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B472913-915E-427E-8EF0-3BF9B0C2C3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B472913-915E-427E-8EF0-3BF9B0C2C3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C50CFD4-4389-4422-99C1-250FABB4F21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C50CFD4-4389-4422-99C1-250FABB4F21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C50CFD4-4389-4422-99C1-250FABB4F21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C50CFD4-4389-4422-99C1-250FABB4F21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED38A8B9-A3D3-4B29-9683-34FDE9EA1EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED38A8B9-A3D3-4B29-9683-34FDE9EA1EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED38A8B9-A3D3-4B29-9683-34FDE9EA1EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED38A8B9-A3D3-4B29-9683-34FDE9EA1EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA4E701-34AC-4E46-83B7-5E5612E5CA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA4E701-34AC-4E46-83B7-5E5612E5CA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA4E701-34AC-4E46-83B7-5E5612E5CA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA4E701-34AC-4E46-83B7-5E5612E5CA4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
